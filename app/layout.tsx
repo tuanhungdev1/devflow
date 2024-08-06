@@ -45,10 +45,7 @@ export default function RootLayout({
       }}
     >
       <html lang="en">
-        <body className={`${inter.variable} font-sans`}>
-          <h1 className="font-bold">Hello</h1>
-          {children}
-        </body>
+        <body className={`${inter.variable} font-sans`}>{children}</body>
       </html>
     </ClerkProvider>
   );
